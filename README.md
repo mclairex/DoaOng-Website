@@ -1,0 +1,1 @@
+A DoaOng é uma inovadora plataforma digital dedicada a facilitar e incentivar doações para Organizações Não Governamentais (ONGs). Essa plataforma foi concebida com o propósito de criar uma experiência transparente, segura e eficiente para aqueles que desejam contribuir para causas sociais relevantes.
