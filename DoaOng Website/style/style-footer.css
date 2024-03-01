@@ -1,0 +1,21 @@
+.footer {
+    background-color: #2680c2;
+    text-align: center;
+    padding: 20px 0;
+    color: white;   
+}
+
+.footer-text{
+    color: white;   
+}
+
+.footer img {
+    width: 30px;
+    margin: 10px;
+    color: white;
+}
+
+.made-by {
+    font-size: 12px;
+    color: white;
+}

@@ -1,0 +1,33 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: var(--fonte1);
+}
+
+/** Fonte para títulos **/
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600&display=swap');
+/** Fonte para Conteúdo **/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&display=swap');
+
+/** Variáveis **/
+
+:root {
+    --cor1: #ffffff;
+    --cor2: #FF6600;
+    --cor3: #2680C2;
+    --cor4: #333;
+    --color5: rgb(91, 98, 125);
+    --color6: rgb(35, 41, 56);
+    --fonte1: 'Work Sans', 'Montserrat', 'Oswald', sans-serif;
+    --fonte2: 'Inter', 'Roboto', 'Open Sans', sans-serif;
+}
+
+h2 {
+    color: var(--cor6);
+}
+
+p {
+    color: var(--color5);
+}

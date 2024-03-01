@@ -1,0 +1,196 @@
+h1{
+    font-size: 45px;
+    font-weight: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+    color: black;
+}
+
+
+main.cards {
+    display: flex;
+    padding: 32px;
+    justify-content: center;
+
+}
+
+main.cards section.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: #2680c2;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    margin-left: 32px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 200px;
+}
+
+main.cards section.card:first-child {
+    margin-left: 0;
+}
+
+main.cards section.card .icon {
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+}
+
+main.cards section.card .icon-rfcc {
+    width: 140px;
+    height: 140px;
+    margin-top: 40px;
+}
+
+main.cards section.card .icon-caritas {
+    width: 130px;
+    height: 130px;
+    margin-top: 10px;
+}
+
+main.cards section.card .icon-lar-da-esperanca {
+    width: 150px;
+    height: 150px;
+
+}
+
+main.cards section.card .icon-funfapi {
+    width: 180px;
+    height: 180px;
+    margin-top: 10px;
+}
+
+main.cards section.card img {
+    width: 100%;
+    align-items: center;
+}
+
+
+.one {
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    border-radius: 32px;
+    border: 0;
+    cursor: pointer;
+    font-size: 80%;
+    font-weight: 500;
+    background-color: #2680c2;
+    color: white;
+    margin-top: 10px;
+}
+.two {
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    border-radius: 32px;
+    border: 0;
+    cursor: pointer;
+    font-size: 80%;
+    font-weight: 500;
+    background-color: orangered;
+    color: white;
+    margin-top: 20px;
+    
+}
+
+.one-caritas {
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    border-radius: 32px;
+    border: 0;
+    cursor: pointer;
+    font-size: 80%;
+    font-weight: 500;
+    background-color: #2680c2;
+    color: white;
+    margin-top: 20px;
+}
+.two-caritas {
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    border-radius: 32px;
+    border: 0;
+    cursor: pointer;
+    font-size: 80%;
+    font-weight: 500;
+    background-color: orangered;
+    color: white;
+    margin-top: 20px;
+}
+
+.one-funfapi {
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    border-radius: 32px;
+    border: 0;
+    cursor: pointer;
+    font-size: 80%;
+    font-weight: 500;
+    background-color: #2680c2;
+    color: white;
+    margin-top: -20px;
+}
+.two-funfapi {
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    border-radius: 32px;
+    border: 0;
+    cursor: pointer;
+    font-size: 80%;
+    font-weight: 500;
+    background-color: orangered;
+    color: white;
+    margin-top: 20px;
+}
+
+.one-rfcc {
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    border-radius: 32px;
+    border: 0;
+    cursor: pointer;
+    font-size: 80%;
+    font-weight: 500;
+    background-color: #2680c2;
+    color: white;
+    margin-top: -20px;
+}
+.two-rfcc {
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    border-radius: 32px;
+    border: 0;
+    cursor: pointer;
+    font-size: 80%;
+    font-weight: 500;
+    background-color: orangered;
+    color: white;
+    margin-top: 20px;
+}
+
+main.cards section {
+    box-shadow: 20px 20px 50px -30px #000000;
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 36px;
+        align-items: center;
+    }
+
+    main.cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main.cards section.card {
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+}
+

@@ -1,0 +1,141 @@
+.section-contact {
+    align-items: center;
+    padding: 80px 0;
+    width: 100%; 
+}
+
+.section-wrapper{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 29px;
+    margin-right: 29px;
+}
+
+.section-wrapper-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 60px;   
+}
+
+.content-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+h2 {
+    font-size: 60px;
+}
+
+.content-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem 0;
+    width: 100%; 
+    margin: 0 auto; 
+    
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.input-group {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.input-box, label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #000000c0;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+    flex: 1;
+    width: 100%; 
+    
+}
+
+.input-box input {
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+    font-size: 0.8rem;
+    width: 100%;
+
+}
+
+.input-box textarea {
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+    font-size: 0.8rem;
+    height: 150px;
+    
+}
+
+.input-box input, textarea :hover {
+    background-color: #eeeeee75;
+}
+
+.input-box input, textarea :focus-visible {
+    outline: 1px solid #0000001c;
+}
+
+.input-box input, textarea ::placeholder {
+    color: #000000be;
+}
+
+
+.enviar-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.enviar-button{
+    width: 100%;
+}
+
+.enviar-button button {  
+    width: 100%;
+    border: none;
+    background-color: var(--cor2);
+    color: var(--cor1);
+    padding: 0.62rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.enviar-button button:hover {
+    background-color: #ff6600e1;
+}
+
+@media (min-width: 768px) {
+    .input-group {
+        width: 50%;
+    }
+}
+
+
